@@ -123,6 +123,11 @@
 		75CDE303279112B100353BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75CDE304279112B100353BF0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		75CDE31C279114D300353BF0 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		75CDE32027931F1F00353BF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		75CDE322279323EF00353BF0 /* landmark2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landmark2.png; sourceTree = "<group>"; };
+		75CDE323279323EF00353BF0 /* landmark1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landmark1.png; sourceTree = "<group>"; };
+		75CDE324279323EF00353BF0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		75CDE325279323EF00353BF0 /* notifications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notifications.png; sourceTree = "<group>"; };
 		ABFE17D910FE79A157ADD56D /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C20D77EA24B665D7002E7AEA /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
@@ -148,7 +153,6 @@
 		C20D782124B6CD01002E7AEA /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		C20D782324B6CD23002E7AEA /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 		C20D782524B6CE82002E7AEA /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
-		C2AC4EA024DE295D005E019B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C2C5839624DB6EA300DD0019 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		C2C5839B24DB710C00DD0019 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		C2FEB32724B7B498004FAB73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -223,6 +227,17 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		75CDE321279323D300353BF0 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				75CDE325279323EF00353BF0 /* notifications.png */,
+				75CDE324279323EF00353BF0 /* home.png */,
+				75CDE323279323EF00353BF0 /* landmark1.png */,
+				75CDE322279323EF00353BF0 /* landmark2.png */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 		85F782A36AC185A1DAAD3B9C /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,7 +257,8 @@
 		C20D77E124B665D7002E7AEA = {
 			isa = PBXGroup;
 			children = (
-				C2AC4EA024DE295D005E019B /* README.md */,
+				75CDE32027931F1F00353BF0 /* README.md */,
+				75CDE321279323D300353BF0 /* static */,
 				C20D77EC24B665D7002E7AEA /* Landmarks */,
 				75CDE2E8279112AF00353BF0 /* WatchLandmarks */,
 				75CDE2F3279112B000353BF0 /* WatchLandmarks WatchKit Extension */,
@@ -725,7 +741,6 @@
 		};
 		C20D77F724B665D8002E7AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73F95A9A1230AE62CF0AAC9F /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -843,7 +858,6 @@
 		};
 		C20D77FA24B665D8002E7AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73F95A9A1230AE62CF0AAC9F /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
